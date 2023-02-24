@@ -39,9 +39,18 @@ color: #008cbf;
 }
 
 
-/*--------
-first container
-*/
+
+.firstP {/* first paragraf short */
+   
+  
+    margin-top: 100px;
+    background-color: rgb(246, 248, 240);
+    font-size: small;
+    display:flex;
+    flex-direction: column; flex-wrap: wrap;
+    font-size: 17px;
+}
+
 section {
     font-family: 'Times New Roman'; 
     margin-top: 100px;
@@ -54,16 +63,6 @@ section {
     justify-content:space-around ;
 
 
-}
-.firstP {/* first paragraf short */
-   
-  
-    margin-top: 50px;
-    background-color: rgb(246, 248, 240);
-    font-size: small;
-    display:flex;
-    flex-direction: column; flex-wrap: wrap;
-    font-size: 17px;
 }
 
 .firstInfo {
