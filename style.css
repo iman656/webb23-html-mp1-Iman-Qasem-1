@@ -1,6 +1,6 @@
 
 *{
-font-family: verdana;
+
 
 padding: 0;
 box-sizing: border-box;
@@ -10,9 +10,11 @@ box-sizing: border-box;
 header{
  
     margin-top: 50px;
-    background-color: rgb(176, 229, 211);
-    text-align: center;
-    color:rgb(72, 63, 63);
+    background-color: rgb(191, 237, 226); /* --header my color */
+    text-align: center; 
+    font-family: verdana;
+    color:rgb(72, 63, 63); 
+    /*--Rubrik color inte svart, min color brun*/
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -25,16 +27,24 @@ li{
 
     list-style: none;
 }
+
 a{
+    display: flex; /*set the links pages  in the center*/
+    justify-content: space-around;
+   
+   
 text-decoration: none;
-color: rgb(143, 89, 89);
+color: #008cbf;
 }
+
 
 /*--------
 first container
 */
 section {
-    
+    font-family: 'Times New Roman'; 
+   
+    /* Text Font är INTE samma headers font*/
     background-color: rgb(245, 244, 241);
     padding: 5px;
     padding-bottom: 3px;
@@ -44,19 +54,23 @@ section {
 
 
 }
-.firstP {
-    
-   
-  
+.firstP {/* first paragraf short */
     height: 50%;
-    
+  
     margin-top: 50px;
     background-color: rgb(246, 248, 240);
     font-size: small;
-    display: flex;
+    display:flex;
     flex-direction: column; flex-wrap: wrap;
+   font-size: 17px;
+}
 
-   
+.firstInfo {
+    padding-left: 50px;
+    margin-bottom: 10px;
+    
+  
+  
 }
 
 #pic-me {
