@@ -8,12 +8,8 @@ box-sizing: border-box;
 }
 /* the header style */
 header{
-<<<<<<< HEAD
  
     margin-top: 50px;
-=======
-    margin-top: 100px;
->>>>>>> 727e67fcee55d2a35a39f788c9c0bd1ca7d336ab
     background-color: rgb(176, 229, 211);
     text-align: center;
     color:rgb(72, 63, 63);
