@@ -88,7 +88,7 @@ section {
      
 }
 
-
+/*------------set fixed footer in the buttom = position fixed*/
 #footer {
     position: fixed;
     background-color: rgb(170, 165, 165);
@@ -96,7 +96,7 @@ section {
     text-align: center;
     color: white;
     width: 100%;
-    height: 100px;
+    height: 50px;
     left:0;
     bottom: 0;
 
